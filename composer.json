@@ -1,0 +1,16 @@
+{
+	"autoload": {
+		"psr-4": {"Xcicx\\": "src/php/"},
+		"files": [
+			"src/php/Container/get-container.php",
+			"src/php/Functional/new-instance.php",
+			"src/php/Functional/require-file.php",
+			"src/php/Functional/require-file-once.php"
+		]
+	},
+	"require": {
+		"league/container": "^4.2",
+		"monolog/monolog": "^2.5",
+		"respect/validation": "^2.2"
+	}
+}

@@ -1,0 +1,22 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "xcicx/compound-interest-calculator",
+	"title": "Compound Interest Calculator",
+	"version": "1.0.0",
+	"category": "design",
+	"icon": "calculator",
+	"description":  "A custom calculator block.",
+	"editorScript": [
+		"file:./index.js"
+	],
+	"editorStyle": [
+		"file:./index.css"
+	],
+	"viewScript": [
+		"file:./view.js"
+	],
+	"style": [
+		"file:./view.css"
+	]
+}
